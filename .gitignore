@@ -1,39 +1,43 @@
-# Byte-compiled / compiled files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
-
 .env
+.venv
+finance/
 
-.finance/
-.env/
-.venv/
-
-# IDE and editor files
-.vscode/
-.idea/
-*.iml
-
-# Local config files
-.envrc
-*.ini
-*.cfg
-
-# Build directories
-build/
+# Distribution / packaging
 dist/
-out/
+build/
+*.egg-info/
 
-# Dependency directories
-node_modules/
-vendor/
+# IDE files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# Log files
+# Compiled Python files
+*.pyc
+
+# Logs and databases
+logs/
 *.log
+*.sqlite3
 
-# Temporary files
-*.tmp
+# Miscellaneous
 *.swp
-*.bak
-*.old
+.DS_Store
+
+# Poetry
+# poetry.lock
+
+tmp/
+
+*env.local
+
+examples/js/node_modules/
+examples/python/__pycache__/
+examples/python/.venv/
