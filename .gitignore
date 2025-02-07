@@ -1,3 +1,9 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
 .env
 
 .finance/
