@@ -1,0 +1,33 @@
+.env
+
+finance/
+.env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Local config files
+.envrc
+*.ini
+*.cfg
+
+# Build directories
+build/
+dist/
+out/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
