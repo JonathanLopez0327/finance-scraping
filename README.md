@@ -1,4 +1,4 @@
-# geonode
+# finance-web-scraping
 This repo will be for working with extracting some data from finance webpages
 
 ## Prerequisites
