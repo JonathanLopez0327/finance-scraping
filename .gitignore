@@ -1,6 +1,6 @@
 .env
 
-finance/
+.finance/
 .env/
 .venv/
 
